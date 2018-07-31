@@ -9,7 +9,7 @@ app.use(express.static(publicPath));
 
 
 if(!module.parent){
-  app.listen(3000, () => {
+  app.listen(port, () => {
     console.log(`Server is up on port ${port}`);
   })
 }
